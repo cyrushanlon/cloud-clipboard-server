@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/cyrushanlon/cloud-clipboard-server",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v79",
+	"Deps": []
+}

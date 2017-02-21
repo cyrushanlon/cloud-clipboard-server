@@ -16,7 +16,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", hello)
 
-	err := http.ListenAndServe(":8000", nil)
+	err := http.ListenAndServe(":443", nil)
 	if err != nil {
 		log.Println(err)
 	}

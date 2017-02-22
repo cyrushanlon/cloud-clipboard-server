@@ -12,6 +12,8 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Println(err)
 	}
+
+	w.WriteHeader(http.StatusOK)
 }
 
 func main() {
